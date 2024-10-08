@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+}
+.navbar-brand {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(255 255 255);
+}
+.search {
+  background: #307c30;
+  color: white;
+}
+#testimonialSlider {
+  height: 400px !important;
+}
+#testimonialSlider .carousel-item {
+  height: 400px !important;
+}
+#testimonialSlider .carousel-item h5 {
+  color: black !important;
+}
+#testimonialSlider .carousel-item p {
+  color: black !important;
+}
